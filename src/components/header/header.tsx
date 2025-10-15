@@ -3,6 +3,7 @@ import { ComponentLayout } from "../component-layout";
 import { HeaderLogo, MobileLogo } from "@/assets";
 import Image from "next/image";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -16,7 +17,9 @@ export const Header = () => {
           <Image src={MobileLogo} alt="Header logo" />
         </div>
 
-        <Button size="lg">Visit Bouquet</Button>
+        <Button asChild size="lg">
+          <Link href="https://bouquet.africa/">Visit Bouquet</Link>
+        </Button>
       </ComponentLayout>
     </header>
   );

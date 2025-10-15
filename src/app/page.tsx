@@ -1,4 +1,11 @@
-import { Freedom, Problem } from "@/components";
+import {
+  Freedom,
+  HowItWorks,
+  Perfect,
+  Problem,
+  Testimonials,
+  Voucher,
+} from "@/components";
 import { BottomRightPattern, Hero } from "@/components/hero";
 
 export default function Home() {
@@ -12,6 +19,12 @@ export default function Home() {
         <Problem />
       </div>
       <Freedom />
+      <HowItWorks />
+      <div>
+        <Perfect />
+        <Testimonials />
+      </div>
+      <Voucher />
     </section>
   );
 }

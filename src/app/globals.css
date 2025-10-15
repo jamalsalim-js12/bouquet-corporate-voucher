@@ -13,3 +13,14 @@ html {
 @theme {
   --font-sans: var(--font-sans);
 }
+
+@layer utilities {
+  .gradient-icon {
+    color: #00A095;
+    mask-image: linear-gradient(95.23deg, #00A095 -4.4%, #004E48 91.85%);
+    -webkit-mask-image: linear-gradient(95.23deg, #00A095 -4.4%, #004E48 91.85%);
+    mask-size: 100%;
+    -webkit-mask-size: 100%;
+    opacity: 0.95;
+  }
+}

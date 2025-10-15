@@ -4,3 +4,7 @@ export * from "./hero";
 export * from "./component-layout";
 export * from "./problem";
 export * from "./freedom";
+export * from "./how-it-works";
+export * from "./perfect";
+export * from "./testimonials";
+export * from "./voucher";

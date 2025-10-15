@@ -24,7 +24,7 @@ export const Footer = () => {
     },
   ];
   return (
-    <footer className="mt-auto bg-[#005550] px-6 md:px-14 lg:px-[100px] py-[30px] flex flex-col gap-y-6 md:gap-y-0 md:flex-row justify-between">
+    <footer className="mt-20 bg-[#005550] px-6 md:px-14 lg:px-[100px] py-[30px] flex flex-col gap-y-6 md:gap-y-0 md:flex-row justify-between">
       <div className="flex flex-col gap-y-3 md:gap-y-[25px]">
         <Image width={80} height={22} src={FooterLogo} alt="Bouquet Logo" />
         <p className="hidden text-sm text-white md:block">Copyright Bouquet</p>

@@ -8,6 +8,7 @@ import HeroBottomRightPattern from "./hero-bottom-right-pattern";
 import Image from "next/image";
 import { HeroImg } from "@/assets";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export const Hero = () => {
   return (
@@ -33,8 +34,8 @@ export const Hero = () => {
             Allow your employees to select the bonuses that are most meaningful
             to them. This empowers them to prioritize what they value.
           </p>
-          <Button size="lg" className="w-full mt-2 lg:w-fit lg:px-8">
-            Talk to Us
+          <Button asChild size="lg" className="w-full mt-2 lg:w-fit lg:px-8">
+            <Link href="tel:+233542084677">Talk to Us</Link>
           </Button>
         </div>
 
