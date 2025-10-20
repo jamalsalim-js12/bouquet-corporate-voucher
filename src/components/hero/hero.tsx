@@ -34,9 +34,17 @@ export const Hero = () => {
             Allow your employees to select the bonuses that are most meaningful
             to them. This empowers them to prioritize what they value.
           </p>
-          <Button asChild size="lg" className="w-full mt-2 lg:w-fit lg:px-8">
-            <Link href="tel:+233542084677">Talk to Us</Link>
-          </Button>
+          <div className="flex flex-col w-full lg:flex-row gap-y-2 lg:gap-x-3">
+            <Button asChild size="lg" className="w-full mt-2 lg:w-fit lg:px-8">
+              <Link href="tel:+233542084677">Talk to Us</Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              className="w-full bg-[#E6F6F5] text-[#005550] mt-2 lg:w-fit lg:px-8 border border-[#DBDBDB] shadow-[0px_4px_4px_0px_#0000001A] hover:bg-[#E6F6F5]/100">
+              <Link href="mailto:bouquet@utopiaafrica.net">Send an email</Link>
+            </Button>
+          </div>
         </div>
 
         {/* Right Side */}
